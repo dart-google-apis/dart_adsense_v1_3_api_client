@@ -1,14 +1,20 @@
-library adsense_v1_3_api_browser;
+library adsense_v1_3_api.browser;
 
-import "adsense_v1_3_api_client.dart";
-export "adsense_v1_3_api_client.dart";
-
-import "dart:core" as core;
-import "dart:html" as html;
-import "dart:async" as async;
-import "dart:json" as JSON;
-import "package:js/js.dart" as js;
 import "package:google_oauth2_client/google_oauth2_browser.dart" as oauth;
 
-part "src/browser/browser_client.dart";
-part "src/browser/adsense.dart";
+import 'package:google_adsense_v1_3_api/src/cloud_api_browser.dart';
+import "package:google_adsense_v1_3_api/adsense_v1_3_api_client.dart";
+
+/** Gives AdSense publishers access to their inventory and the ability to generate reports */
+class Adsense extends Client with BrowserClient {
+
+  /** OAuth Scope2: View and manage your AdSense data */
+  static const String ADSENSE_SCOPE = "https://www.googleapis.com/auth/adsense";
+
+  /** OAuth Scope2: View your AdSense data */
+  static const String ADSENSE_READONLY_SCOPE = "https://www.googleapis.com/auth/adsense.readonly";
+
+  final oauth.OAuth2 auth;
+
+  Adsense([oauth.OAuth2 this.auth]);
+}
