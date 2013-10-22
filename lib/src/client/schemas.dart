@@ -60,7 +60,7 @@ class Account {
   }
 
   /** Return String representation of Account */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -115,7 +115,7 @@ class Accounts {
   }
 
   /** Return String representation of Accounts */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -179,7 +179,7 @@ class AdClient {
   }
 
   /** Return String representation of AdClient */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -234,7 +234,7 @@ class AdClients {
   }
 
   /** Return String representation of AdClients */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -271,7 +271,7 @@ class AdCode {
   }
 
   /** Return String representation of AdCode */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -326,7 +326,7 @@ class AdStyle {
   }
 
   /** Return String representation of AdStyle */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -391,7 +391,7 @@ class AdStyleColors {
   }
 
   /** Return String representation of AdStyleColors */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -429,7 +429,7 @@ class AdStyleFont {
   }
 
   /** Return String representation of AdStyleFont */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -543,7 +543,7 @@ INACTIVE: Indicates that there has been no activity on this ad unit in the last 
   }
 
   /** Return String representation of AdUnit */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -590,7 +590,7 @@ class AdUnitContentAdsSettings {
   }
 
   /** Return String representation of AdUnitContentAdsSettings */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -637,7 +637,7 @@ class AdUnitContentAdsSettingsBackupOption {
   }
 
   /** Return String representation of AdUnitContentAdsSettingsBackupOption */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -693,7 +693,7 @@ class AdUnitFeedAdsSettings {
   }
 
   /** Return String representation of AdUnitFeedAdsSettings */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -749,7 +749,7 @@ class AdUnitMobileContentAdsSettings {
   }
 
   /** Return String representation of AdUnitMobileContentAdsSettings */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -804,7 +804,7 @@ class AdUnits {
   }
 
   /** Return String representation of AdUnits */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -886,7 +886,7 @@ class AdsenseReportsGenerateResponse {
   }
 
   /** Return String representation of AdsenseReportsGenerateResponse */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -932,7 +932,7 @@ class AdsenseReportsGenerateResponseHeaders {
   }
 
   /** Return String representation of AdsenseReportsGenerateResponseHeaders */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -996,7 +996,7 @@ class Alert {
   }
 
   /** Return String representation of Alert */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1033,7 +1033,7 @@ class Alerts {
   }
 
   /** Return String representation of Alerts */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1097,7 +1097,7 @@ class CustomChannel {
   }
 
   /** Return String representation of CustomChannel */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1153,7 +1153,7 @@ class CustomChannelTargetingInfo {
   }
 
   /** Return String representation of CustomChannelTargetingInfo */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1208,7 +1208,7 @@ class CustomChannels {
   }
 
   /** Return String representation of CustomChannels */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1244,7 +1244,7 @@ class Metadata {
   }
 
   /** Return String representation of Metadata */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1326,7 +1326,7 @@ class ReportingMetadataEntry {
   }
 
   /** Return String representation of ReportingMetadataEntry */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1381,7 +1381,7 @@ class SavedAdStyle {
   }
 
   /** Return String representation of SavedAdStyle */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1436,7 +1436,7 @@ class SavedAdStyles {
   }
 
   /** Return String representation of SavedAdStyles */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1482,7 +1482,7 @@ class SavedReport {
   }
 
   /** Return String representation of SavedReport */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1537,7 +1537,7 @@ class SavedReports {
   }
 
   /** Return String representation of SavedReports */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1583,7 +1583,7 @@ class UrlChannel {
   }
 
   /** Return String representation of UrlChannel */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1638,7 +1638,7 @@ class UrlChannels {
   }
 
   /** Return String representation of UrlChannels */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
