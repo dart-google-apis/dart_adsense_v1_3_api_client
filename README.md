@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_adsense_v1_3_api: '>=0.4.3'
+    google_adsense_v1_3_api: '>=0.4.4'
 ```
 
 For web applications:
@@ -29,13 +29,13 @@ For console application:
   import "package:google_adsense_v1_3_api/adsense_v1_3_api_console.dart" as adsenseclient;
 ```
 
-Working with out authentication the following constructor can be called:
+Working without authentication the following constructor can be called:
 
 ```
   var adsense = new adsenseclient.Adsense();
 ```
 
-Working with authentication then create a new `GoogleOAuth2` object and pass it to the constructor:
+To use authentication create a new `GoogleOAuth2` object and pass it to the constructor:
 
 
 ```
