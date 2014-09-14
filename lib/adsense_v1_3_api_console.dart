@@ -7,6 +7,7 @@ import 'package:google_adsense_v1_3_api/src/console_client.dart';
 import "package:google_adsense_v1_3_api/adsense_v1_3_api_client.dart";
 
 /** Gives AdSense publishers access to their inventory and the ability to generate reports */
+@deprecated
 class Adsense extends Client with ConsoleClient {
 
   /** OAuth Scope2: View and manage your AdSense data */
